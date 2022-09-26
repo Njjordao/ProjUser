@@ -13,6 +13,8 @@
 		AC3E606F28D90ADA00ABFEE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3E606E28D90ADA00ABFEE4 /* Preview Assets.xcassets */; };
 		AC3E607828D90BBE00ABFEE4 /* UserModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC3E607628D90BBE00ABFEE4 /* UserModel.xcdatamodeld */; };
 		AC3E607A28D90DF100ABFEE4 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3E607928D90DF100ABFEE4 /* DataController.swift */; };
+		ACD8C30128DF814800A1C176 /* AddUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD8C30028DF814800A1C176 /* AddUserView.swift */; };
+		ACD8C30328DF937300A1C176 /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD8C30228DF937300A1C176 /* EditUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		AC3E606E28D90ADA00ABFEE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC3E607728D90BBE00ABFEE4 /* UserModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserModel.xcdatamodel; sourceTree = "<group>"; };
 		AC3E607928D90DF100ABFEE4 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		ACD8C30028DF814800A1C176 /* AddUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserView.swift; sourceTree = "<group>"; };
+		ACD8C30228DF937300A1C176 /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			children = (
 				AC3E606728D90AD900ABFEE4 /* ProjUserApp.swift */,
 				AC3E606928D90AD900ABFEE4 /* ContentView.swift */,
+				ACD8C30228DF937300A1C176 /* EditUserView.swift */,
+				ACD8C30028DF814800A1C176 /* AddUserView.swift */,
 				AC3E607528D90B4700ABFEE4 /* DataModel */,
 				AC3E606B28D90ADA00ABFEE4 /* Assets.xcassets */,
 				AC3E606D28D90ADA00ABFEE4 /* Preview Content */,
@@ -153,6 +159,8 @@
 			files = (
 				AC3E606A28D90AD900ABFEE4 /* ContentView.swift in Sources */,
 				AC3E607A28D90DF100ABFEE4 /* DataController.swift in Sources */,
+				ACD8C30128DF814800A1C176 /* AddUserView.swift in Sources */,
+				ACD8C30328DF937300A1C176 /* EditUserView.swift in Sources */,
 				AC3E606828D90AD900ABFEE4 /* ProjUserApp.swift in Sources */,
 				AC3E607828D90BBE00ABFEE4 /* UserModel.xcdatamodeld in Sources */,
 			);

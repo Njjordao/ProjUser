@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+
 @main
 struct ProjUserApp: App {
+    let persistentcontainer = DataController.shareed
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environment(\.managedObjectContext, persistentcontainer.container.viewContext)
         }
     }
 }
